@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  /*  background-image: url(image/ots4.jpg);*/
+  background-color: rgb(231, 165, 225);
+}
+nav{
+    background-color: rgb(184, 86, 153);
+    color: cornsilk;
+    padding: 20px;
+}
+h1,ul,li{
+    display: inline;
+    cursor: pointer;
+}
+ul{
+    margin-left: 60%;
+}
+a{
+    color: azure;
+}
+a:hover{
+    background-color:beige;
+    border-radius: 5px;
+    padding: 4px;
+    color: black;
+}
+input{
+    border-radius: 15px;
+    border-color:black;
+    width: 60%;
+    padding: 12px;
+    margin: 10px;
+}
+.search{
+    text-align: center;
+}
+.box{
+   border-color: black;
+   border: width 10px;
+   border-radius: 10px;
+   border-style:ridge;
+   width: 300px;
+   display: inline-block;
+}
+.box{
+      transform:scale(1.5);
+    }
+.fream{
+    text-align: center;
+}
+.box:hover{
+    background-color:rgb(104, 94, 80);
+    color: rgb(241, 246, 186);
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.im{
+    border-color: black;
+    border: width 5px;
+    margin-top: 15px;
+   border-bottom: 0px;
+    border-radius: 15px;
+    border-style: ridge;
+    display: inline-block;
+}
+.contact{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;;
+}
